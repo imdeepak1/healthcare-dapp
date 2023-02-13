@@ -9,12 +9,12 @@ const config: HardhatUserConfig = {
   networks: {
     goerli: {
       url: `https://eth-goerli.g.alchemy.com/v2/{YOUR-API-KEY}`,
-      accounts:[`{ACCOUNT-PRIMARY-KEY}`],
+      accounts:[`{ACCOUNT-PRIVATE-KEY}`],
     },
     
     arbitrum: {
       url:"https://arb-goerli.g.alchemy.com/v2/{YOUR-API-KEY}",
-      accounts: ["{ACCOUNT-PRIMARY-KEY}"],
+      accounts: ["{ACCOUNT-PRIVATE-KEY}"],
     },
   },
 };
