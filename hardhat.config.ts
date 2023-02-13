@@ -20,8 +20,3 @@ const config: HardhatUserConfig = {
 };
 
 export default config;
-
-
-// Goerli Test - 0x396775A338CACE8665338EFDA34458f018AacD05
- 
-// Arbitrum Test - 0xacaB57893f3167258AdAFA8A2376ae648FAFa91D
