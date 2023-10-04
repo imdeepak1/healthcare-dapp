@@ -9,12 +9,6 @@ async function main() {
 
   console.log(`Health Care DApp deployed to ${lock.address}`);
 }
-
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-
-
-//new
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
